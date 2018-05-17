@@ -5,7 +5,7 @@
 Example output: 
 1 2 Foo 4 Bar Foo 7 8 Foo Bar 11 Foo 13 14 FooBar ... 
 */
-
+console.log("******solution # 1******");
 
 function FooBar(){
     //create a variable called num and assign it to 100
@@ -39,7 +39,7 @@ FooBar();
 Example: 
 even_integers(3) 
 2 */
-
+console.log("******solution # 2******");
 
 function even_integers(num){
     //creating for loop and looping through all the numbers up to num+1, cuz index starts from 0, not 1;
@@ -65,23 +65,14 @@ y = random_int(1,6)
 z = random_int(1,6) 
 a = x + y + z 
 */
-
-function findRangeOfValues(min, max){
-    max = 
-    Math.floor(100000 + Math.random() * 900000)
-    x = Math.floor(Math.random() * (max - min + 1)) + min;
-    y = Math.floor(Math.random() * (max - min + 1)) + min;
-    z = Math.floor(Math.random() * (max - min + 1)) + min;
-    var a=[];
-    
-}
+console.log("******solution # 3******");
 
 
 (function (min, max){//starting anonymous function to selfinvoke it
   
 var lowest, highest;//creating variables to use later  
 
-for(i = 0; i < 2; i++){//looping through numbers upto 1000 to find out lowest and highest variables each time
+for(i = 0; i < 1000; i++){//looping through numbers upto 1000 to find out lowest and highest variables each time
     //finding random number for x, y and z based on given number range
     var x = Math.floor(Math.random() * max) + min;
     var y = Math.floor(Math.random() * max) + min;
@@ -117,6 +108,7 @@ words = ['one', 'one', 'two', 'three', 'three', 'two']
 Remove the duplicates. 
 */
 
+console.log("******solution # 4******");
 
 (function() {//starting anonymous function to selfinvoke it
     //creating an array with strings
@@ -145,6 +137,7 @@ Remove the duplicates.
 4 4 4 4 4 
 5 5 5 5 5 */
 
+console.log("******solution # 5******");
 
 (function (num) { //starting anonymous function to selfinvoke it
     //looping through numbers from 1 to num+1
